@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# Proprietary LSEG/Refinitiv data is NOT redistributed — fetch your own via scripts/fetch_data.py
+data/raw_prices/
+data/regime_states.csv
