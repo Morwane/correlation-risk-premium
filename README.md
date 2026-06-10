@@ -15,7 +15,9 @@ a stress indicator): the same latent object, measured implied (CBOE `.COR`) inst
 | Signal-scaled (sell when rich) | **1.03** | −21.5 | 0.48 |
 | Signal + HMM throttle | 1.02 | **−16.5** | **0.62** |
 
-Bootstrap Sharpe 95% CI **[0.59, 1.48]**; survives costs to 20 bps. Full tearsheet:
+![equity curves](reports/figures/f1_equity_curves.png)
+
+Bootstrap Sharpe 95% CI **[0.59, 1.48]**; survives costs to 20 bps. Full tearsheet with all figures:
 [`reports/tearsheet.md`](reports/tearsheet.md).
 
 **Honest headline:** the correlation premium is real but conditional and negatively-skewed; the regime
